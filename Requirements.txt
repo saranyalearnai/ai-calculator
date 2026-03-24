@@ -1,0 +1,99 @@
+**EPIC: Build a Calculator Application**
+
+As a user, I want to create a simple, user-friendly calculator application that performs basic arithmetic operations (addition, subtraction, multiplication, division) and provides error handling (such as division by zero). The calculator will have a command-line interface for input and output, and it will be tested to ensure all features work as expected.
+
+**Feature 1: Basic Arithmetic Operations**
+- As a user, I want the calculator to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+**Feature 2: Error Handling for Division by Zero**
+- As a user, I want the calculator to display an error message when I attempt to divide by zero.
+
+**Feature 3: Input Validation**
+- As a user, I want the calculator to validate user inputs to ensure that only valid numbers and operators are accepted.
+
+**Feature 4: User Interface (Command-line)**
+- As a user, I want to interact with the calculator through a text-based user interface, where I input numbers and operators to perform calculations.
+
+**Feature 5: Clear and Reset Functionality**
+- As a user, I want the ability to clear the current input or reset the calculator.
+
+**Feature 6: Advanced Mathematical Operations** (Optional)
+- As a user, I want to perform advanced mathematical operations such as square root and exponentiation.
+
+**Feature 7: Calculation History**
+- As a user, I want to view the history of past calculations.
+
+**User Stories for Feature 1: Basic Arithmetic Operations**
+1. **User Story 1 (Addition)**: As a user, I want to add two numbers together so that I can perform addition calculations.
+2. **User Story 2 (Subtraction)**: As a user, I want to subtract one number from another so that I can perform subtraction calculations.
+3. **User Story 3 (Multiplication)**: As a user, I want to multiply two numbers together so that I can perform multiplication calculations.
+4. **User Story 4 (Division)**: As a user, I want to divide one number by another so that I can perform division calculations.
+
+**User Stories for Feature 2: Error Handling for Division by Zero**
+5. **User Story 5 (Error Message)**: As a user, I want the calculator to display an error message when I attempt to divide by zero so that I understand the error.
+
+**User Stories for Feature 3: Input Validation**
+6. **User Story 6 (Number Validation)**: As a user, I want the calculator to check if I’ve entered valid numbers so that I can avoid calculation errors.
+7. **User Story 7 (Operator Validation)**: As a user, I want the calculator to validate the operator I enter (e.g., +, -, *, /) so that I can avoid using invalid operators.
+
+**User Stories for Feature 4: User Interface (CLI)**
+8. **User Story 8 (User Input Prompt)**: As a user, I want the calculator to prompt me for input in the command line so that I can interact with it easily.
+9. **User Story 9 (Display Result)**: As a user, I want to see the result of my calculation displayed in the terminal.
+
+**User Stories for Feature 5: Clear and Reset Functionality**
+10. **User Story 10 (Clear Input)**: As a user, I want to clear the current input to start fresh when performing new calculations.
+11. **User Story 11 (Reset Calculator)**: As a user, I want to reset the calculator to start fresh for a new set of calculations.
+
+**User Stories for Feature 6: Advanced Operations**
+12. **User Story 12 (Square Root)**: As a user, I want to calculate the square root of a number.
+13. **User Story 13 (Exponentiation)**: As a user, I want to calculate the power of a number (exponentiation).
+
+**User Stories for Feature 7: Calculation History**
+14. **User Story 14 (View History)**: As a user, I want to view the history of my calculations so that I can review or reuse previous results.
+
+
+**Acceptance Criteria for User Story 1: Addition**
+- The calculator should correctly add two numbers together.
+- The result should be displayed as the sum of the two numbers.
+- The calculator should allow multiple additions in sequence.
+
+**Acceptance Criteria for User Story 5: Error Handling for Division by Zero**
+- The calculator should display a specific error message when division by zero is attempted, such as "Error: Cannot divide by zero."
+- No crash should occur when dividing by zero.
+
+**Acceptance Criteria for User Story 8: User Input Prompt**
+- The calculator should ask the user to input the first number, followed by the operator, and then the second number.
+- The input prompt should be clear and understandable.
+- The calculator should only accept valid numerical input and operator choices.
+
+**Acceptance Criteria for User Story 12: Square Root**
+- The calculator should correctly calculate the square root of a given number.
+- The result should be displayed correctly for positive numbers. If negative, it should show an error message.
+
+**Acceptance Criteria for User Story 14: View History**
+- The calculator should save the results of previous calculations.
+- The history should be viewable via a command in the terminal.
+- Each history entry should include the operation, input, and result.
+
+**Definition of Done (DoD)** for User Stories:
+- Code is written according to the agreed-upon design and is working as expected.
+- All acceptance criteria are met and verified.
+- Code is tested (either manually or with automated unit tests).
+- Code is committed and pushed to the repository with clear commit messages.
+- Documentation (if required) is updated to reflect the changes.
+- Code has been reviewed by peers (if applicable).
+- Feature is integrated into the main branch and is functional in the overall system.
+- Any bugs or issues found during testing are fixed and verified.
+
+**Estimation for User Stories**:
+- **User Story 1 (Addition)**: 2 points (simple arithmetic, should take a short time)
+- **User Story 5 (Error Handling for Division by Zero)**: 3 points (adding error handling logic)
+- **User Story 8 (User Input Prompt)**: 3 points (implementing user input and validation)
+- **User Story 12 (Square Root)**: 5 points (requires mathematical logic and additional input validation)
+- **User Story 14 (View History)**: 8 points (implementing calculation history feature with storage and retrieval)
+
+**Total Estimation** for this EPIC: 21 points (or hours, depending on your method of estimation).
+
+
+
+
